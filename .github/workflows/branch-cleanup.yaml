@@ -2,7 +2,7 @@ name: Branch Cleanup
 
 on:
   schedule:
-    - cron: "0/1 * * * *"
+    - cron: "* * * * *"
 
 jobs:
   cleanup:
