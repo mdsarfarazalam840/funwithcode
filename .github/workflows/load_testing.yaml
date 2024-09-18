@@ -1,10 +1,6 @@
 name: Load Testing Workflow
 
-on:
-  schedule:
-    - cron: "* * * * *"
-  push:
-    
+on: [push]
 
 jobs:
   load_test:
