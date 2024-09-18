@@ -1,8 +1,8 @@
 name: Branches Cleaner
 
-on:
-  schedule:
-    - cron: "* * * * *"
+# on:
+#   schedule:
+#     - cron: "* * * * *"
 
 jobs:
   cleanup-branches:
