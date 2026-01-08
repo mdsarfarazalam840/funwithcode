@@ -5,3 +5,8 @@ ola
 d
 dv
 dzv
+
+
+.venv/
+__pycache__/
+*.pyc
